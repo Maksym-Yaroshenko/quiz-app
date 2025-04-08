@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--basic-background-color);
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--purple);
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: var(--purple);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--hover-purple);
+}
